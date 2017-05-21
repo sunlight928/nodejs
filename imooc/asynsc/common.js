@@ -2,10 +2,11 @@ var http =require('http');
 var querystring =require('querystring');
 
 var postData = querystring.stringify({
-    content:'加油加油加油',
+    content:'加油加油',
     cross_post:1,
     belongId:2862414
 });
+
 
 
 var options ={
